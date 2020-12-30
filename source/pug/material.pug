@@ -34,8 +34,11 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Investigación de la moda.', 'main.html#page/#tema-1/')
-                                    +navTemaItem('2', 'El mercado y sus segmentos.', 'main.html#page/#tema-2/')
+                                    +navTemaItem('1', 'Investigación de la moda.', '#tema-1')
+                                    +navTemaItem('2', 'El mercado y sus segmentos.', '#tema-2')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
         section#mainContent         
             #tema-1
